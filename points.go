@@ -27,4 +27,13 @@ func main() {
 		fmt.Printf("a[%d] = %d\n", i,*ptr[i] )
 	}
 
+	x := 5
+	changeValue(&x)
+
+	fmt.Println(x)
+
+}
+//通过指针改变值
+func changeValue( x *int )  {
+	*x = 0
 }
