@@ -24,8 +24,10 @@ func main() {
 	   这个方法可以用来做文件校验在下载文件之前，获取文件的uint32，下载完成之后生成一个uint32，两者做比较，这样可以验证文件的合法性
 	*/
 
-	s := sha1.New()
+
+
+	s := sha1.New() //创建一个sha1
 	s.Write([]byte("test"))
 	bs := s.Sum([]byte{})
-	fmt.Println(bs)
+	fmt.Println(string(bs[:]))
 }
