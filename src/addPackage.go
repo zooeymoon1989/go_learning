@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golang-book"
+	"golang-book/math"
 )
 
 func main() {
