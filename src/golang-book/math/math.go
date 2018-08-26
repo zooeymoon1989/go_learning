@@ -9,6 +9,8 @@ func Average(xs []float64) (total float64) {
 		total += x
 	}
 
+	total /= float64(len(xs))
+
 	return
 
 }
