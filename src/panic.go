@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 	//panic可以开启一个运行时的错误
 	//我们可以使用内建的函数来处理运行时的panic
-	//有点类似与try catch throw
 
 	//panic("PANIC")
 	//str :=recover()
